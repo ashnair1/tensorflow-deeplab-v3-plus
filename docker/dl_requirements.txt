@@ -1,0 +1,10 @@
+Cython==0.29.2
+easydict==1.9
+matplotlib==3.0.2
+opencv-contrib-python==4.0.0.21
+protobuf==3.6.1
+pycocotools==2.0.0
+tensorflow-plot==0.3.2
+tqdm==4.28.1
+Pillow==6.1.0
+

@@ -28,6 +28,11 @@ Please install latest version of TensorFlow (r1.6) and use Python 3.
 from [slim](https://github.com/tensorflow/models/tree/master/research/slim)
 specifying the location with `--pre_trained_model`.
 
+## Docker
+```
+docker build -t deeplab -f ./docker/Dockerfile .
+nvidia-docker run -it --rm -v /home/ashwin/tensorflow-deeplab-v3-plus/:/workspace/DL3 deeplab:latest /bin/bash
+```
 ## Training
 For training model, you first need to convert original data to
 the TensorFlow TFRecord format. This enables to accelerate training seep. 
